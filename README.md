@@ -20,6 +20,15 @@
 
 ###
 
+<h3 align="left">🌱 Current Focus </h3>
+
+###
+
+<p align="left">Working on a Guessing Game in React</p>
+
+
+###
+
 <p align="left">HI I'm Sarthak Bisht from MSIT<br><br>- 🔭  I'm a B.Tech student with a interest in building dynamic, responsive, and user-friendly websites and blockchain applications<br>- 📚 I'm currently learning React and Tailwind<br>- ⚡ Currently working on enhancing my knowledge of JavaScript frameworks and libraries.</p>
 
 ###
