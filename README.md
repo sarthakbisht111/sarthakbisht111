@@ -28,7 +28,7 @@
 
 ###
 
-<p align="left">Working on a Guessing Game in React</p>
+<p align="left">Mastering Tailwind </p>
 
 ###
 
