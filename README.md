@@ -1,73 +1,72 @@
-<div align="center">
-  <a href="www.linkedin.com/in/sarthak-bisht-67b265290" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  </a>
-  <a href="https://www.instagram.com/sarthakbiisht/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo"  />
-  </a>
-  <a href="sarthakbisht111@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo"  />
-  </a>
-</div>
+# Sarthak Bisht
 
-###
+**Backend Developer · Final Year B.Tech CSE @ MSIT Delhi**
 
-<h1 align="center">hey there 👋</h1>
+---
 
-###
+I build production-grade backend systems with a focus on scalability, clean API design, and cloud deployment. Currently preparing for backend/SDE roles at product-based companies while deepening my expertise in distributed systems and DSA.
 
-<h3 align="left">👩‍💻  About Me</h3>
+---
 
-###
+## 🛠 Tech Stack
 
-<p align="left">HI, I'm Sarthak Bisht from MSIT<br><br>- 🔭  I'm a B.Tech student with an interest in building dynamic, responsive, and user-friendly websites and blockchain applications<br>- 📚 I'm currently learning React and Tailwind<br>- ⚡ Currently working on enhancing my knowledge of JavaScript frameworks and libraries.</p>
+**Languages**
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-###
+**Backend & Web**
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
 
-<h3 align="left">🌱 Current Focus </h3>
+**Databases & Cloud**
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
-###
+---
 
-<p align="left">Mastering Tailwind </p>
+## 🚀 Featured Projects
 
-###
+### [ShareHub — Distributed Pastebin Service](https://github.com/sarthakbisht111/sharehub)
+> Node.js · Express.js · MongoDB · Redis · AWS (S3, EC2, ECR) · Docker
 
-<h3 align="left">🛠 Languages </h3>
+A production-grade pastebin service built for scalability and reliability.
 
-###
+- **Rate limiting** — sliding window algorithm (10 req/min/IP) via Redis
+- **Storage tiering** — pastes >10 KB offloaded to AWS S3, reducing MongoDB load by ~40%
+- **Caching** — cache-aside pattern for sub-millisecond repeat reads (~60% read performance gain)
+- **Deployment** — Dockerised stack deployed on AWS EC2 via private ECR registry with 99%+ uptime
+- **Analytics** — dashboard tracking views, cache hit/miss ratios, and storage distribution
 
-<div align="left">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white&style=for-the-badge" height="40" alt="cplusplus logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black&style=for-the-badge" height="40" alt="c logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/Solidity-363636?logo=solidity&logoColor=white&style=for-the-badge" height="40" alt="solidity logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?logo=tailwindcss&logoColor=black&style=for-the-badge" height="40" alt="tailwindcss logo"  />
-  <img width="12" />
-</div>
+---
 
-###
+### [TrimLink — URL Shortener](https://github.com/sarthakbisht111/trimlink)
+> Node.js · Express.js · MongoDB · EJS · JWT Auth
 
-<h3 align="left">📐 Tools</h3>
+A scalable URL shortener with authentication and per-link analytics.
 
-###
+- Custom short links with JWT-based user authentication and authorisation
+- Optimised MongoDB indexing for low-latency lookups
+- Server-rendered EJS UI with middleware-driven session and access control
+- Deployed on Render with consistent low-latency responses across 100+ test requests
 
-<div>
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" height="40" alt="Git logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" height="40" alt="Github logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white&style=for-the-badge" height="40" alt="figma logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7" height="40" alt="Netlify"  />
-  <img width="12" />
-</div>
+---
+
+## 🏆 Achievements
+
+- 🥉 **2nd place / 150 teams** — InnoVortex 2.0 Hackathon · Final pitch presented at Microsoft Office
+- 💻 **100+ problems** solved on LeetCode
+- 🖥 **Core Member** — Web Development, Microsoft Student Council (MSC)
+
+---
+
+## 📫 Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/sarthakbisht111)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:sarthakbisht111@gmail.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/bisht_sarthak/)
