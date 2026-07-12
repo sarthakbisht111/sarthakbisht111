@@ -59,7 +59,7 @@ A scalable URL shortener with authentication and per-link analytics.
 
 ## 🏆 Achievements
 
-- 🥉 **2nd place / 150 teams** — InnoVortex 2.0 Hackathon · Final pitch presented at Microsoft Office
+- 🥈 **2nd place / 150 teams** — InnoVortex 2.0 Hackathon · Final pitch presented at Microsoft Office
 - 💻 **100+ problems** solved on LeetCode
 - 🖥 **Core Member** — Web Development, Microsoft Student Council (MSC)
 
